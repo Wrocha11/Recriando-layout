@@ -1,0 +1,99 @@
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  display: flex;
+  width: 1024px;
+  height: 726px;
+  padding-top: 64px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
+
+  margin: 64px auto auto auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main{
+
+  width: 626px;
+  height: 486px;
+}
+
+#img1 img {
+
+  width: 350px;
+  height: 238px;
+  padding: 32px 138px 32px 138px;
+}
+
+h1 {
+  
+  color: #3F3D56;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h1 span {
+
+  font-weight: bold;
+  color: #EE24FF;
+}
+
+p {
+
+  margin: 16px auto 32px;
+  color: #828282;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+p span {
+  font-weight: bold;
+}
+
+p strong {
+  color: #3F3D56;
+}
+
+#line {
+
+  width: 391px;
+  margin: 32px auto 16px;
+  border: 1px solid #ECEFF2;
+}
+
+.rodape {
+
+  text-align: center;
+  color: #3F3D56;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.rodape a {
+
+  text-decoration: none;
+}
+
+.rodape img{
+
+  margin-top: 40px;
+  width: 1024px;
+  height: 104px;
+
+}
+
+a + a {
+
+  margin-left: 28px;
+}
